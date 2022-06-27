@@ -52,7 +52,7 @@ class HitungFragment : Fragment() {
                 )
                 return true
             }
-            R.id.menu_jarak_kota -> {
+            R.id.menu_hapus -> {
                 findNavController().navigate(
                     R.id.action_hitungFragment_to_jarakKotaFragment
                 )
